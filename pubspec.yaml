@@ -1,0 +1,15 @@
+name: flutter_application_1
+description: A Flutter project with clickable hyperlinks using RichText.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'  # Updated for null safety support
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.0.20  # Example for URL launch functionality
+
+flutter:
+  uses-material-design: true
